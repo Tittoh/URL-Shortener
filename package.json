@@ -1,0 +1,35 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "URL shortener with Typescript, Express, mongoDB",
+  "main": "index.js",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "@types/mongoose": "^5.7.36",
+    "@types/node": "^14.0.27",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "node-ts": "^5.0.8",
+    "nodemon": "^2.0.4",
+    "pug": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "start": "ts-node dist/server.js",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tittoh/URL-Shortener.git"
+  },
+  "author": "tittoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tittoh/URL-Shortener/issues"
+  },
+  "homepage": "https://github.com/Tittoh/URL-Shortener#readme"
+}
